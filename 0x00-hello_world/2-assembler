@@ -1,1 +1,2 @@
-gcc -c -s $CFILE -o assembler.s
+#!/bin/bash
+gcc -S $CFILE
