@@ -7,7 +7,6 @@ int main(void)
 
 	x = 'a';
 	y = 'A';
-
 	while
 		(x <= 'z')
 		{putchar (x);
@@ -16,8 +15,8 @@ int main(void)
 
 	while
 		(y <= 'Z')
-		{putchar (y); 
-			y++; 
+		{putchar (y);
+		y++;
 		};
 
 		putchar('\n');
