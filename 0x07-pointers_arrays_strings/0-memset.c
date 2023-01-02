@@ -1,13 +1,12 @@
 #include "main.h"
-
 /**
-* _menset - fill a block of memory with a specific value
-* @s: starting address of memory to be filled
-* @b: The desired value
-* @n: The number of bytes to be changed
-*
-* Return: A pointer to the filled memory area @s
-*/
+ * _menset - fill a block of memory with a specific value
+ * @s: starting address of memory to be filled
+ * @b: the desired value
+ * @n: the number of bytes to be changed
+ *
+ * Return: changed array with value for n bytes
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
