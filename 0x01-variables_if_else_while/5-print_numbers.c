@@ -6,14 +6,15 @@
  * Return: Always 0 (succes)
  */
 
+
 int main(void)
 {
 	int a;
 
 	for (a = 0; a < 10; a++)
-	{
-		putchar(c + '0');
-	}
+
+		printf("%d", a);
+
 	putchar ('\n');
 	return (0);
 }
