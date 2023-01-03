@@ -1,33 +1,28 @@
 #include <stdio.h>
 
-/* 
- * main - Entry point
+/**
+ * main -print combinations ot two digits
  *
- * return: Always 0 (success0
- *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	int a;
+	int tens;
 
-	int b;
+	int ones;
 
-	for (a = 0; a < 9;
-			a++);
+	for (tens = 0; tens <= 9; tens++)
 	{
-		for (b = a + 1; b < 10;
-			b++);
+
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			putchar((a % 10) + '0');
-			
-			putchar((b % 10) + '0');
-		}
-	if
-		{ (a == 8 && b == 9);
-			continue;
+			putchar(tens + '0');
+			putchar(ones + '0');
+			if (tens < 8)
+			{
 				putchar(',');
 				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
