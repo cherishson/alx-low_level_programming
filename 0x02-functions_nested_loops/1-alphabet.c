@@ -1,23 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - print alphabet
+ * main -print alphabet
  *
- * return: Always 0
+ * Return: Always 0
  */
 
- int main(void)
+void print_alphabet(void)
 {
 	char c;
 
-	for (c='a'; c<='z'; c++);
+	for
+		(c = 'a';
+		c <= 'z';
+		c++);
 
-	{ 
-		putchar ('c');
-	
-      	}
-
-	         putchar ('\n');
-
-	 return 0;
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
