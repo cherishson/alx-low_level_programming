@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*more headers go there */
+/**
+ * main -a function which is entry point
+ *
+ * Return: Always 0 (success)
+ */
 
-
-/* betty style doc for function main goes there */
- 
 int main(void)
 {
 	int n;

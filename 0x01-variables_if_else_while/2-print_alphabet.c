@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main -a functionthat prints the alphabets in lowercase
+ *
+ * Return: Always 0 (success)
+ */
+
 int main(void)
 {
 	char x;
@@ -16,8 +22,8 @@ int main(void)
 
 	while
 		(y <= 'Z')
-		{putchar (y); 
-			y++; 
+		{putchar (y);
+			y++;
 		};
 
 		putchar('\n');

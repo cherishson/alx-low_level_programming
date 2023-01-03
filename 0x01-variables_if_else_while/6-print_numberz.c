@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - a program that prints all single digit numbers of base 10
+ * main -a program that prints all single digit numbers of base 10
  *@a - the integer value to be processed
  * Return: Always 0 (succes)
  */
