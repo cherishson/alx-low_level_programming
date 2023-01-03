@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main -tests functions that prints negative or positive
- *
- * Return: 0 (success)
- */
+  * main -tests functions that prints negative or positive
+  *
+  * Return: 0 (success)
+  */
 
 int main(void)
 {
