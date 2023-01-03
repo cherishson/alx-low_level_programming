@@ -1,22 +1,29 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main -a functionthat prints the alphabets in lowercase
  *
  * Return: Always 0 (success)
- **/
+ */
 
 int main(void)
 {
 	char x;
+	char y;
 
 	x = 'a';
+	y = 'A';
+
 	while
 		(x <= 'z')
-		{if
-			((x != 'q' && x != 'e') && x <= 'z')
 		{putchar (x);
 		x++;
+		}
+
+	while 
+		(y <= 'Z')
+		{putchar(y);
+		y++;
 		}
 
 		putchar('\n');
