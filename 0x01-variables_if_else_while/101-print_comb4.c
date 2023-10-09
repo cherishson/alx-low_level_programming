@@ -16,13 +16,13 @@ int main(void)
 		{
 			for (c = '2'; c <= '9'; c++)
 			{
-		
-			if ( a < b && b < c)
+
+			if (a < b && b < c)
 			{
 				putchar(a);
 				putchar(b);
 				putchar(c);
-				
+
 				if (a  < '7')
 				{
 					putchar(',');
@@ -31,8 +31,8 @@ int main(void)
 			}
 			}
 		}
-	}	
-	
+	}
+
 	putchar('\n');
 
 	return (0);
