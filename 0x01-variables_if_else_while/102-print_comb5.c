@@ -3,29 +3,27 @@
 /**
  * main - entry point
  *
- * Return: always 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = 0; a <= 99; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
+		for (b = 1; b <= 99; b++)
 		{
-			for (c = '0'; c <= '9'; c++)
+			putchar(a / 10 + '0');
+			putchar(a % 10 + '0');
+			putchar(' ');
+			putchar(b / 10 + '0');
+			putchar(b % 10 + '0');
+		
+		if (!(a == 98 && b == 99))
 			{
-				for (d = '1'; d <= 10; d++)
-				{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
